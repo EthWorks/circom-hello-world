@@ -1,8 +1,8 @@
 template Multiplier2 () {
 
    // Declaration of signals.
-   signal input a;
-   signal input b;
+   signal private input a;
+   signal private input b;
    signal output c;
 
    // Statements.

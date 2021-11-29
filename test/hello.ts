@@ -1,7 +1,7 @@
 const { expect } = require("chai")
 const { hello } = require("../src/circuit-wrapper.js");
 
-describe("exp", async () => {
+describe("hello", async () => {
     it("works", async () => {
         const output = await hello({ a: 2, b: 3 })
         console.log(output)
